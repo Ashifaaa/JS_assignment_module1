@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dice Probability Calculator</title>
+    <script src="js10.js"></script>
+</head>
+<body>
+
+    <form id="diceProbabilityForm">
+        <label for="numDice">Enter the number of dice:</label>
+        <input type="text" id="numDice" required>
+        <br>
+
+        <label for="sumOfEyes">Sum of the eye numbers:</label>
+        <input type="text" id="sumOfEyes" required>
+        <br>
+
+        <button type="button" onclick="calculateProbability()">Calculate Probability</button>
+    </form>
+
+    <div id="probabilityResult"></div>
+
+</body>
+</html>
